@@ -62,7 +62,9 @@ const Start = () => {
 
   const getVideo = async () => {
     try {
-      const response = await axios.get("http://localhost:3001/video");
+      const response = await axios.get(
+        "https://be-exposed.herokuapp.com/video"
+      );
       await setData(response.data);
       await setOptions(
         shuffleArray([response.data.answer, response.data.distractor])
