@@ -1,0 +1,117 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  gap: 30px;
+  padding: 0 60px;
+}
+
+/* Landing Text*/
+
+.home .landingText {
+  width: 50%;
+  height: 100%;
+  font-size: 1.4em;
+  color: #2a3240;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home .landingText span {
+  font-size: 1.6em;
+  color: #ff5a57;
+}
+
+.home .landingText .getStarted {
+  width: 100%;
+  margin: 30px 0;
+}
+
+.home .landingText .getStarted button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background: #ff5a57;
+  color: #fdfdfd;
+  font-weight: 600;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+/* Landing Figure */
+
+.home .landingFigure {
+  width: 50%;
+}
+
+.home .landingFigure svg {
+  width: 100%;
+}
+
+.home .landingFigure path:global(.pen) {
+  animation: animatePen 3s infinite;
+}
+
+.home .landingFigure path:global(.vase) {
+  animation: animateVase 4s infinite;
+}
+
+@keyframes animatePen {
+  0% {
+    transform: translateY(2px);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+  75% {
+    transform: translateY(8px);
+  }
+  90% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes animateVase {
+  0% {
+    transform: translate(1px, 1px);
+  }
+  50% {
+    transform: translate(4px, 8px);
+  }
+  80% {
+    transform: translate(2px, 4px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 780px) {
+  .home {
+    flex-direction: column;
+    padding: 70px 25px;
+  }
+  .home .landingText {
+    width: 100%;
+    font-size: 1.1em;
+  }
+  .home .landingText span {
+    width: 100%;
+    font-size: 1.2em;
+  }
+  .home .landingFigure {
+    width: 100%;
+    height: 100%;
+  }
+  .home .landingFigure svg {
+    width: 100%;
+    height: 100%;
+  }
+}
