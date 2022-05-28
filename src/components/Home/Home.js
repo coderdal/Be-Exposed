@@ -1,7 +1,10 @@
 import React from "react";
+
 import { LearningIcon } from "../assets/icons";
 
 import styles from "./Home.module.css";
+
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -15,7 +18,7 @@ const Home = () => {
           Now it's easy with <br /> Be Exposed!
         </h1>
         <div className={styles.getStarted}>
-          <button>Get Started 🚀</button>
+          <Link to="start">Get Started 🚀</Link>
         </div>
       </div>
       <div className={styles.landingFigure}>

@@ -29,14 +29,15 @@
   margin: 30px 0;
 }
 
-.home .landingText .getStarted button {
-  padding: 10px 20px;
-  border-radius: 10px;
+.home .landingText .getStarted a {
+  text-decoration: none;
+  padding: 8px 20px;
+  border-radius: 5px;
   border: none;
   background: #ff5a57;
   color: #fdfdfd;
   font-weight: 600;
-  font-size: 1em;
+  font-size: 0.9em;
   cursor: pointer;
 }
 
