@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  padding: 15px 30px;
+  border-bottom: 1px solid #eceff4;
+}
+
+.header .brand {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.header .brand h1 a {
+  text-decoration: none;
+  color: #db4d4b;
+}
+
+.header .brand p {
+  font-size: 0.8em;
+  font-style: italic;
+  color: #7f7f7f;
+}
