@@ -14,6 +14,8 @@
 .start .video video {
   width: 100%;
   height: 100%;
+  max-height: 100vh;
+  max-width: 100vw;
 }
 
 /* Actions */
@@ -218,5 +220,15 @@
   .start .video .actions .selectCaptions button svg {
     width: 50px;
     height: 50px;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .start .video .actions .finished {
+    right: 7%;
+  }
+  .start .video .actions .remaining {
+    right: 13%;
+    top: 30px;
   }
 }
