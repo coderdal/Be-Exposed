@@ -232,3 +232,14 @@
     top: 30px;
   }
 }
+
+@media screen and (min-width: 1360px) {
+  .start .video .actions .options button {
+    width: 20%;
+  }
+  .start .video .actions .captions {
+    width: 35%;
+  }
+  .start .video .actions .selectCaptions button {
+    width: 15%;
+  }
