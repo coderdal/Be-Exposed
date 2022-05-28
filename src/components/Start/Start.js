@@ -132,7 +132,7 @@ const Start = () => {
   };
 
   return isLoading ? (
-    <h1>Loading </h1>
+    <div className={styles.loading}>Loading... </div>
   ) : (
     <section className={styles.start}>
       <div className={styles.video}>
