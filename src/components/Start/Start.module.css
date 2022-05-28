@@ -200,9 +200,12 @@
   width: 100%;
   height: 100vh;
   font-size: 1.8em;
+<<<<<<< HEAD
   display: flex;
   align-items: center;
   justify-content: center;
+=======
+>>>>>>> 20cdc87efd1e279303987911920a7a7e15eb30c0
 }
 
 /* Media Queries */
