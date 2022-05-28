@@ -97,6 +97,7 @@
   .home {
     flex-direction: column;
     padding: 70px 25px;
+    height: 100%;
   }
   .home .landingText {
     width: 100%;
